@@ -5,7 +5,7 @@
 .vs/
 
 # Evidencias locais — nao versionar
-evidencias/
+docs/evidencias/
 
 # Prerequisites
 *.d
