@@ -12,12 +12,18 @@
 *Descreva o que será desenvolvido para sanar o problema identificado. Defina o escopo da entrega em sua totalidade.*
 > **Exemplo:** Desenvolvimento de uma plataforma Web Full Stack sob medida, contemplando banco de dados centralizado, automação de regras de negócio e interface moderna e responsiva, com o objetivo de otimizar a operação diária e garantir a integridade das informações.
 
+O desenvolvimento será conduzido em ciclos iterativos com práticas do **PSP3 (Personal Software Process, nível 3)**, assegurando que cada iteração produza um incremento funcional testado e que as estimativas de prazo melhorem progressivamente com base em dados reais de produtividade.
+
+> **Referência PSP3:** HUMPHREY, Watts S. *A Discipline for Software Engineering*. Addison-Wesley, 1995. Pesquise: `"PSP3 cyclic process Humphrey SEI"`.
+
 ## 4. Valor Agregado e Justificativa
 *Enumere os benefícios esperados para o negócio do contratante após a implantação da solução. Este item fundamenta o valor técnico e estratégico do contrato.*
 - [ ] Automação de tarefas operacionais e cálculos manuais recorrentes.
 - [ ] Centralização, integridade e segurança das informações.
 - [ ] Interface intuitiva que reduz o tempo de capacitação de novos colaboradores.
 - [ ] Escalabilidade tecnológica compatível com o crescimento da organização.
+- [ ] **Qualidade mensurada:** a adoção do PSP (Personal Software Process) garante que defeitos sejam rastreados por tipo e fase de injeção, tornando a qualidade do produto auditável — não apenas percebida. (Pesquise: `"PSP defect tracking quality metrics"`)
+- [ ] **Estimativas baseadas em dados:** o uso do método PROBE (PSP1) para estimativas paramétricas reduz a margem de erro nos prazos ao utilizar o histórico real de produtividade do desenvolvedor em lugar de suposições. (Pesquise: `"PROBE estimating method PSP1 Humphrey"`)
 
 ## 5. Perfis de Usuário (Público-Alvo)
 *Identifique os perfis que irão operar o sistema e seus respectivos níveis de acesso.*

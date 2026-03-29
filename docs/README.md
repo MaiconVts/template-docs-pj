@@ -30,7 +30,14 @@ Norma internacional que define o modelo de qualidade de produto de software, div
 Legislação brasileira que regulamenta o tratamento de dados pessoais. Considerada nos documentos de Testes de Software e Usabilidade, com cenários específicos para validação do direito ao esquecimento, anonimização e consentimento.
 
 **OWASP Top 10**
-Lista das vulnerabilidades de segurança mais críticas em aplicações web, publicada pela Open Web Application Security Project. Referenciada no processo de CI/CD e nos cenários de testes de segurança.
+Lista das vulnerabilidades de segurança mais críticas em aplicações web, publicada pela Open Web Application Security Project. Referenciada no processo de CI/CD e nos cenários de testes de segurança. Pesquise: `"OWASP Top 10 web application security"` ou acesse [owasp.org/www-project-top-ten](https://owasp.org/www-project-top-ten).
+
+**PSP — Personal Software Process**
+Método de desenvolvimento individual criado por Watts S. Humphrey no SEI/CMU (Software Engineering Institute, Carnegie Mellon University). Estrutura o trabalho do desenvolvedor em níveis progressivos (PSP0 a PSP3), com práticas de registro de tempo, rastreamento de defeitos por tipo e fase, padrões de codificação, estimativas paramétricas (método PROBE) e revisões de design e código documentadas. Os dados coletados ao longo do projeto retroalimentam a precisão das estimativas e a eficácia das revisões em ciclos futuros.
+
+Referência primária: HUMPHREY, Watts S. *A Discipline for Software Engineering*. Addison-Wesley, 1995. ISBN 978-0201546101. Pesquise: `"PSP Humphrey discipline software engineering SEI"` ou acesse [sei.cmu.edu/education-outreach/courses/psp.cfm](https://sei.cmu.edu/education-outreach/courses/psp.cfm).
+
+Documentos influenciados pelo PSP: 01 (PSP3 na abordagem), 02 (LOC e Taxonomia de Defeitos), 03 (estimativas PROBE), 04 (PSP0–PSP3, central), 05 (produtividade histórica), 06 (PSP2 Design Review), 07 (Padrões de Codificação e LOC), 08 (PSP0.1), 09–12 (classificação de defeitos por Tipo PSP), 13 (Atestado de Qualidade PSP3).
 
 ---
 

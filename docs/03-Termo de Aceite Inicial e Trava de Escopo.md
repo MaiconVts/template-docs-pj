@@ -15,8 +15,13 @@ Declaro estar ciente de que o projeto seguirá a metodologia definida no **Doc 0
 Qualquer solicitação de nova funcionalidade, alteração de fluxo ou integração não prevista nos documentos originais será tratada formalmente como **Mudança de Escopo (Change Request)**. Tais solicitações estarão sujeitas a:
 
 - Nova análise de viabilidade técnica e de impacto pelo desenvolvedor;
-- Possíveis ajustes no cronograma de entrega;
+- **Re-estimativa paramétrica de tamanho e esforço** via método **PROBE (PSP1)**, utilizando o histórico real de produtividade (LOC/hora) registrado ao longo do projeto — não estimativas subjetivas;
+- Possíveis ajustes no cronograma de entrega, calculados com base na estimativa PROBE e nas reservas de contingência definidas no **Doc 05 — Cronograma de Entregas**;
 - Custos adicionais a serem negociados e formalizados em aditivo contratual, mediante aprovação prévia de ambas as partes.
+
+O contratante reconhece que estimativas baseadas em dados históricos de produtividade (PSP1/PROBE) resultam em compromissos mais confiáveis do que estimativas pontuais, e que variações em relação ao escopo original impactam proporcionalmente o prazo e o custo do projeto.
+
+> **Referência PSP1/PROBE:** HUMPHREY, Watts S. *A Discipline for Software Engineering*. Addison-Wesley, 1995, cap. 6–7. Pesquise: `"PROBE method PSP1 size estimating"` ou `"PSP proxy-based estimating Humphrey"`.
 
 ---
 

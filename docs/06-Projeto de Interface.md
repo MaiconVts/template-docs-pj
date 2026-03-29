@@ -38,7 +38,23 @@ Diretrizes visuais que nortearão o desenvolvimento Front-end:
 
 ---
 
-## 4. Validação e Aceite de Interface
+## 4. Revisão de Design (PSP2) e Aceite de Interface
+
+Para prevenir retrabalho na camada de visualização (Front-end), a codificação das telas somente será iniciada após dois processos distintos: a **Revisão de Design (PSP2)** realizada pelo desenvolvedor e o **Aceite Formal** do cliente.
+
+**4.1. Revisão de Design — PSP2 (Etapa Interna, Desenvolvedor)**
+Antes de abrir qualquer Pull Request de Front-end, o desenvolvedor deve verificar:
+- [ ] O layout implementado corresponde fielmente ao protótipo aprovado nesta seção?
+- [ ] Os breakpoints de responsividade (Mobile First) estão respeitados conforme Doc 08?
+- [ ] Os seletores CSS/SCSS seguem a nomenclatura BEM definida no Padrão de Codificação (Doc 07, seção 6.2)?
+- [ ] Todos os elementos interativos possuem estados visuais de feedback (hover, active, disabled, loading)?
+- [ ] A acessibilidade básica está atendida (atributos `alt`, contraste mínimo WCAG 2.1 AA)?
+
+Defeitos identificados nesta revisão devem ser registrados no Log de Defeitos (Doc 04, seção 5.2) com Tipo 80 (Função) ou Tipo 20 (Sintaxe), conforme aplicável.
+
+> **Referência PSP2 Design Review:** HUMPHREY, Watts S. *A Discipline for Software Engineering*. Addison-Wesley, 1995, cap. 11. Pesquise: `"PSP design review checklist front-end"`.
+
+**4.2. Validação e Aceite de Interface — Cliente**
 
 Para prevenir retrabalho na camada de visualização (Front-end), a codificação das telas somente será iniciada após a validação e o aceite formal das estruturas propostas nesta seção.
 

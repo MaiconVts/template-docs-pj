@@ -81,3 +81,20 @@ Para garantir a imparcialidade dos resultados e a conformidade legal, a coleta d
 * **Adequação à LGPD:**
     * Todos os testes serão conduzidos mediante consentimento prévio e informado dos voluntários.
     * **Nenhum dado pessoal identificável (nome real, e-mail, endereço IP, imagem do rosto ou voz) será gravado, armazenado ou exposto nos relatórios finais.** Os participantes serão identificados exclusivamente por pseudônimos (ex: "Usuário 1", "Usuário 2").
+
+## 5. Classificação PSP de Problemas de Usabilidade
+
+Problemas de UX identificados nas sessões de teste devem ser classificados conforme a Taxonomia de Defeitos PSP (Doc 02, seção 7), permitindo análise cruzada com os defeitos de software e alimentando o Post-mortem do ciclo PSP3.
+
+| Problema de UX | Tipo PSP Equivalente | Justificativa |
+| :--- | :--- | :--- |
+| Fluxo de navegação confuso ou sequência de telas incorreta | Tipo 80 (Função) | A lógica de navegação não cumpre a intenção do requisito funcional. |
+| Ícone ou rótulo ambíguo | Tipo 10 (Documentação) | Elemento de interface sem comunicação clara de sua função. |
+| Formulário aceita entrada inválida sem feedback | Tipo 60 (Verificação) | Ausência de validação de input na camada de apresentação. |
+| Elemento fora de posição em determinada resolução | Tipo 20 (Sintaxe/Layout) | Regra CSS/SCSS aplicada incorretamente. |
+| Interação quebrada em dispositivo específico | Tipo 90 (Sistema) | Incompatibilidade de evento com o ambiente de execução. |
+
+Os problemas identificados nos testes de usabilidade são registrados no Documento 12 (Registro de Testes de Usabilidade) e retroalimentam o backlog de correções do ciclo PSP3 seguinte.
+
+> **Referência PSP3 retroalimentação:** HUMPHREY, Watts S. *A Discipline for Software Engineering*. Addison-Wesley, 1995, cap. 14. Pesquise: `"PSP3 process improvement usability defects"`.
+> **Referência LGPD:** Lei nº 13.709/2018. Pesquise: `"LGPD consentimento tratamento dados pessoais Art 7"`.

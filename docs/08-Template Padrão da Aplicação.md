@@ -52,3 +52,14 @@ Os ícones utilizados em botões, menus e alertas visam facilitar o reconhecimen
 
 ---
 > **Nota de Implementação:** Os arquivos de estilização global (CSS/SCSS) e os componentes de layout base que refletem estas diretrizes estão armazenados e centralizados na pasta `[caminho/para/pasta/styles]` do repositório do projeto.
+
+## 5. Conformidade com o Padrão de Codificação (PSP0.1)
+
+Este template visual é parte integrante do **Padrão de Codificação (PSP0.1)** definido no **Doc 07 — Arquitetura da Solução, seção 6**. As seguintes regras se aplicam à implementação deste template:
+
+* Os seletores CSS/SCSS devem seguir a nomenclatura **BEM** (`bloco__elemento--modificador`) conforme definido no Doc 07, seção 6.2.
+* Cada componente visual (botão, card, modal, tabela) deve ter seu estilo centralizado em um arquivo de componente dedicado — não inline.
+* A paleta de cores, tipografia e breakpoints definidos neste documento devem ser declarados como **variáveis CSS** (ou tokens SCSS), nunca duplicados como valores literais no código.
+* O Padrão de Codificação e este template visual são referenciados obrigatoriamente no **Checklist de Revisão de Código (PSP2)** antes de qualquer Pull Request de Front-end (Doc 04, seção 5.7).
+
+> **Referência PSP0.1 / PSP2:** HUMPHREY, Watts S. *A Discipline for Software Engineering*. Addison-Wesley, 1995, cap. 5 e cap. 10. Pesquise: `"PSP coding standard visual design review"` ou `"BEM CSS methodology naming convention"` para a convenção de nomenclatura.

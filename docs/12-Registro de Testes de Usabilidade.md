@@ -32,62 +32,62 @@ Em conformidade com a LGPD, todos os voluntários foram anonimizados. A seleçã
 **Cenário 1: Cadastro e Primeiro Acesso (Onboarding)**
 Contexto: O participante deseja criar uma conta na plataforma.
 
-| **Usuário** | **Tempo Total (seg)** | **Cliques** | **Concluída?** | **Erros Cometidos** | **Feedback do Usuário** |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| Usuário 1 | 45 | 6 | Sim | Nenhum | "Processo rápido e direto." |
-| Usuário 2 | 50 | 6 | Sim | Nenhum | "Formulário objetivo, sem campos desnecessários." |
-| Usuário 3 | 75 | 8 | Sim | Erro de digitação na senha | "O autocorreto do celular alterou meu e-mail, mas foi fácil corrigir." |
-| Usuário 4 | 90 | 7 | Sim | Nenhum | "Texto com tamanho adequado para leitura." |
-| Usuário 5 | 85 | 6 | Sim | Nenhum | "Simples e direto." |
-| Usuário 6 | 60 | 6 | Sim | Nenhum | "Sem dificuldades." |
+| **Usuário** | **Tempo Total (seg)** | **Cliques** | **Concluída?** | **Erros Cometidos** | **Tipo PSP (se aplicável)** | **Feedback do Usuário** |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Usuário 1 | 45 | 6 | Sim | Nenhum | — | "Processo rápido e direto." |
+| Usuário 2 | 50 | 6 | Sim | Nenhum | — | "Formulário objetivo, sem campos desnecessários." |
+| Usuário 3 | 75 | 8 | Sim | Erro de digitação na senha | — | "O autocorreto do celular alterou meu e-mail, mas foi fácil corrigir." |
+| Usuário 4 | 90 | 7 | Sim | Nenhum | — | "Texto com tamanho adequado para leitura." |
+| Usuário 5 | 85 | 6 | Sim | Nenhum | — | "Simples e direto." |
+| Usuário 6 | 60 | 6 | Sim | Nenhum | — | "Sem dificuldades." |
 
 **Cenário 2: Criação e Gestão de Registros ([Entidade Principal])**
 Contexto: Criar um novo registro e confirmar sua listagem no sistema.
 
-| **Usuário** | **Tempo Total (seg)** | **Cliques** | **Concluída?** | **Erros Cometidos** | **Feedback do Usuário** |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| Usuário 1 | 35 | 5 | Sim | Nenhum | "Ação de criação intuitiva e fluida." |
-| Usuário 2 | 40 | 5 | Sim | Nenhum | "Padrão da indústria, muito familiar." |
-| Usuário 3 | 110 | 12 | Sim | Tentou interagir 3x (Mobile) | "No celular, a tela rolou junto com o gesto de arrasto. Precisei tentar várias vezes." |
-| Usuário 4 | 65 | 7 | Sim | Clicou fora do modal | "Fechei acidentalmente o formulário, mas percebi rapidamente." |
-| Usuário 5 | 130 | 15 | Sim | Tentou interagir 4x (Mobile) | "A interação pelo celular exigiu mais tentativas do que o esperado." |
-| Usuário 6 | 55 | 5 | Sim | Nenhum | "Sem dificuldades." |
+| **Usuário** | **Tempo Total (seg)** | **Cliques** | **Concluída?** | **Erros Cometidos** | **Tipo PSP (se aplicável)** | **Feedback do Usuário** |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Usuário 1 | 35 | 5 | Sim | Nenhum | — | "Ação de criação intuitiva e fluida." |
+| Usuário 2 | 40 | 5 | Sim | Nenhum | — | "Padrão da indústria, muito familiar." |
+| Usuário 3 | 110 | 12 | Sim | Tentou interagir 3x (Mobile) | Tipo 90 (Sistema) | "No celular, a tela rolou junto com o gesto de arrasto. Precisei tentar várias vezes." |
+| Usuário 4 | 65 | 7 | Sim | Clicou fora do modal | Tipo 80 (Função) | "Fechei acidentalmente o formulário, mas percebi rapidamente." |
+| Usuário 5 | 130 | 15 | Sim | Tentou interagir 4x (Mobile) | Tipo 90 (Sistema) | "A interação pelo celular exigiu mais tentativas do que o esperado." |
+| Usuário 6 | 55 | 5 | Sim | Nenhum | — | "Sem dificuldades." |
 
 **Cenário 3: Utilização da Funcionalidade Principal**
 Contexto: Localizar e ativar a funcionalidade central do sistema.
 
-| **Usuário** | **Tempo Total (seg)** | **Cliques** | **Concluída?** | **Erros Cometidos** | **Feedback do Usuário** |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| Usuário 1 | 15 | 2 | Sim | Nenhum | "Elemento de fácil localização." |
-| Usuário 2 | 20 | 2 | Sim | Nenhum | "A funcionalidade está bem visível na interface." |
-| Usuário 3 | 30 | 3 | Sim | Nenhum | "Encontrei o botão de ação rapidamente." |
-| Usuário 4 | 80 | 6 | Sim | Confundiu o ícone | "Interpretei o ícone como um histórico; demorei para identificar sua função real." |
-| Usuário 5 | 45 | 3 | Sim | Nenhum | "O destaque visual ajuda a identificar a funcionalidade." |
-| Usuário 6 | 25 | 2 | Sim | Nenhum | "Integração muito prática na mesma tela." |
+| **Usuário** | **Tempo Total (seg)** | **Cliques** | **Concluída?** | **Erros Cometidos** | **Tipo PSP (se aplicável)** | **Feedback do Usuário** |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Usuário 1 | 15 | 2 | Sim | Nenhum | — | "Elemento de fácil localização." |
+| Usuário 2 | 20 | 2 | Sim | Nenhum | — | "A funcionalidade está bem visível na interface." |
+| Usuário 3 | 30 | 3 | Sim | Nenhum | — | "Encontrei o botão de ação rapidamente." |
+| Usuário 4 | 80 | 6 | Sim | Confundiu o ícone | Tipo 10 (Documentação) | "Interpretei o ícone como um histórico; demorei para identificar sua função real." |
+| Usuário 5 | 45 | 3 | Sim | Nenhum | — | "O destaque visual ajuda a identificar a funcionalidade." |
+| Usuário 6 | 25 | 2 | Sim | Nenhum | — | "Integração muito prática na mesma tela." |
 
 **Cenário 4: Edição de Perfil e Configurações**
 Contexto: Navegar até o perfil e alterar o nome de exibição.
 
-| **Usuário** | **Tempo Total (seg)** | **Cliques** | **Concluída?** | **Erros Cometidos** | **Feedback do Usuário** |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| Usuário 1 | 25 | 4 | Sim | Nenhum | "Padrão esperado — menu no canto superior direito." |
-| Usuário 2 | 30 | 4 | Sim | Nenhum | "O feedback de 'salvo com sucesso' está bem implementado." |
-| Usuário 3 | 40 | 5 | Sim | Nenhum | "Menu bem posicionado no mobile." |
-| Usuário 4 | 55 | 6 | Sim | Nenhum | "O botão de salvar ficou abaixo da área visível; precisei rolar a página." |
-| Usuário 5 | 35 | 4 | Sim | Nenhum | "Rápido e sem complicações." |
-| Usuário 6 | 30 | 4 | Sim | Nenhum | "Sem problemas." |
+| **Usuário** | **Tempo Total (seg)** | **Cliques** | **Concluída?** | **Erros Cometidos** | **Tipo PSP (se aplicável)** | **Feedback do Usuário** |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Usuário 1 | 25 | 4 | Sim | Nenhum | — | "Padrão esperado — menu no canto superior direito." |
+| Usuário 2 | 30 | 4 | Sim | Nenhum | — | "O feedback de 'salvo com sucesso' está bem implementado." |
+| Usuário 3 | 40 | 5 | Sim | Nenhum | — | "Menu bem posicionado no mobile." |
+| Usuário 4 | 55 | 6 | Sim | Nenhum | Tipo 20 (Sintaxe/Layout) | "O botão de salvar ficou abaixo da área visível; precisei rolar a página." |
+| Usuário 5 | 35 | 4 | Sim | Nenhum | — | "Rápido e sem complicações." |
+| Usuário 6 | 30 | 4 | Sim | Nenhum | — | "Sem problemas." |
 
 **Cenário 5: Exclusão de Conta (Usabilidade e LGPD)**
 Contexto: Localizar a opção de encerramento de conta e confirmar a exclusão definitiva.
 
-| **Usuário** | **Tempo Total (seg)** | **Cliques** | **Concluída?** | **Erros Cometidos** | **Feedback do Usuário** |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| Usuário 1 | 35 | 4 | Sim | Nenhum | "A confirmação em dois passos é adequada para uma ação irreversível." |
-| Usuário 2 | 40 | 4 | Sim | Nenhum | "O texto do modal de exclusão é claro e objetivo." |
-| Usuário 3 | 50 | 5 | Sim | Nenhum | "O botão vermelho cumpre seu papel de sinalizar risco." |
-| Usuário 4 | 120 | 8 | Sim | Hesitou no modal | "Li o texto de aviso duas vezes para ter certeza da ação. A mensagem poderia ser mais direta." |
-| Usuário 5 | 65 | 5 | Sim | Nenhum | "A opção não é óbvia, mas é localizável." |
-| Usuário 6 | 45 | 4 | Sim | Nenhum | "O fluxo de confirmação transmite segurança ao usuário." |
+| **Usuário** | **Tempo Total (seg)** | **Cliques** | **Concluída?** | **Erros Cometidos** | **Tipo PSP (se aplicável)** | **Feedback do Usuário** |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Usuário 1 | 35 | 4 | Sim | Nenhum | — | "A confirmação em dois passos é adequada para uma ação irreversível." |
+| Usuário 2 | 40 | 4 | Sim | Nenhum | — | "O texto do modal de exclusão é claro e objetivo." |
+| Usuário 3 | 50 | 5 | Sim | Nenhum | — | "O botão vermelho cumpre seu papel de sinalizar risco." |
+| Usuário 4 | 120 | 8 | Sim | Hesitou no modal | Tipo 10 (Documentação) | "Li o texto de aviso duas vezes para ter certeza da ação. A mensagem poderia ser mais direta." |
+| Usuário 5 | 65 | 5 | Sim | Nenhum | — | "A opção não é óbvia, mas é localizável." |
+| Usuário 6 | 45 | 4 | Sim | Nenhum | — | "O fluxo de confirmação transmite segurança ao usuário." |
 
 ---
 
@@ -123,3 +123,8 @@ O principal ponto de atrito identificado concentra-se no **Cenário 2**, restrit
 * **Leve (Melhoria de polimento visual):**
     * *Problema:* O botão "Salvar" da tela de perfil pode ficar abaixo da área visível dependendo da resolução do monitor.
     * *Ação Proposta:* Ajustar o CSS da página de perfil para garantir que o formulário seja contido dentro da altura mínima da janela (`100vh`) ou fixar a barra de ações na parte inferior da tela.
+
+---
+
+> **Retroalimentação PSP3:** Os problemas de UX identificados neste registro — classificados por Tipo PSP — devem ser incorporados ao Post-mortem do ciclo PSP3 correspondente (Doc 04, seção 5.8). Eles retroalimentam o Checklist de Revisão de Design (Doc 04, seção 5.7) do próximo ciclo, prevenindo a reinjeção dos mesmos tipos de defeito em iterações futuras.
+> **Referência:** Pesquise: `"PSP3 post-mortem process data improvement"` ou `"PSP defect prevention feedback loop"`.

@@ -43,14 +43,37 @@ Este documento centraliza as evidências de execução dos testes planejados e d
 
 ---
 
-## 2. Relatório de Testes de Software
+## 2. Registro Consolidado de Defeitos (PSP0)
 
-### 2.1. Resultados Gerais e Pontos Fortes
+Esta tabela consolida todos os defeitos identificados durante a execução dos testes. Ela alimenta o cálculo do indicador **Phase Yield (PSP2)** e retroalimenta o planejamento de revisões nos próximos ciclos.
+
+| ID | Caso de Teste | Tipo PSP | Fase de Injeção | Fase de Remoção | Tempo de Correção (min) | Descrição Resumida |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| D-001 | CT04 | 60 — Verificação | Codificação | Teste | [X min] | Sanitização de XSS ausente no campo "Título" do formulário. |
+| D-002 | CT02 | 50 — Interface | Codificação | Teste | [X min] | Evento de drag-and-drop não tratado para dispositivos touch. |
+| *[Adicionar defeitos reais do projeto]* | | | | | | |
+
+**Cálculo do Phase Yield (PSP2):**
+> `Phase Yield = (defeitos removidos na fase / defeitos injetados antes do final da fase) × 100%`
+> **Meta mínima de referência:** ≥ 70% de yield nas revisões de código antes dos testes automatizados.
+
+| Fase | Defeitos Injetados (antes da fase) | Defeitos Removidos na Fase | Phase Yield |
+| :--- | :--- | :--- | :--- |
+| Revisão de Código (PSP2) | [X] | [Y] | [Y/X × 100%] |
+| Testes Automatizados (CI/CD) | [X − Y] | [Z] | [Z/(X−Y) × 100%] |
+
+> **Referência PSP2 Phase Yield:** HUMPHREY, Watts S. *A Discipline for Software Engineering*. Addison-Wesley, 1995, cap. 10. Pesquise: `"PSP phase yield defect removal efficiency"`.
+
+---
+
+## 3. Relatório de Testes de Software
+
+### 3.1. Resultados Gerais e Pontos Fortes
 *(Exemplo ilustrativo — substituir pelo relatório real do projeto)*
 
 A execução da suíte de testes validou de forma robusta o núcleo da aplicação. O principal ponto forte identificado foi a eficiência da **camada de segurança e adequação à LGPD no backend**. Os testes confirmaram que as senhas estão sendo devidamente codificadas (hash) antes da persistência e que o endpoint de exclusão de conta garante a remoção em cascata de todo o histórico do usuário, sem deixar registros órfãos. A geração do token JWT também se mostrou segura, não expondo informações sensíveis no *payload*.
 
-### 2.2. Fragilidades e Falhas Identificadas
+### 3.2. Fragilidades e Falhas Identificadas
 *(Exemplo ilustrativo — substituir pelas falhas reais identificadas)*
 
 Apesar do êxito na validação das regras de negócio, os testes ponta a ponta (E2E) revelaram as seguintes fragilidades:
@@ -58,7 +81,7 @@ Apesar do êxito na validação das regras de negócio, os testes ponta a ponta 
 * **Falha de Sanitização Parcial (CT04):** O campo de "Título" do formulário de cadastro permitiu a execução de um script inofensivo no ambiente de desenvolvimento. *Impacto:* Se não corrigido, representaria uma vulnerabilidade de *Cross-Site Scripting* (XSS) no painel do usuário.
 * **Problema de Usabilidade Mobile (CT02):** A funcionalidade de arrastar e soltar registros entre colunas apresentou inconsistências em simuladores de dispositivos móveis com tela *touch*, exigindo múltiplas tentativas por parte do usuário.
 
-### 2.3. Estratégias de Correção e Melhorias
+### 3.3. Estratégias de Correção e Melhorias
 *(Exemplo ilustrativo — substituir pelas ações corretivas reais)*
 
 Para a próxima iteração de desenvolvimento, as seguintes ações corretivas foram priorizadas:
@@ -66,3 +89,8 @@ Para a próxima iteração de desenvolvimento, as seguintes ações corretivas f
 1. **Ajuste de Segurança (Backend):** Implementar um *middleware* global de sanitização na API para garantir que qualquer entrada de *string*, independentemente do endpoint, seja submetida a um filtro rigoroso antes de ser persistida no banco de dados.
 2. **Otimização de Interface (Front-end):** Substituir ou refatorar a implementação de *drag-and-drop* por uma solução otimizada para eventos de toque (*touch events*), assegurando paridade de experiência entre desktop e dispositivos móveis.
 3. **Evolução Contínua (CI/CD):** Incluir na *pipeline* uma etapa de auditoria de pacotes (npm / NuGet) para bloquear automaticamente *deploys* quando dependências com vulnerabilidades conhecidas forem detectadas.
+
+---
+
+> **Retroalimentação PSP3:** Os dados consolidados neste documento (tipos de defeito, fases de injeção, tempos de correção e Phase Yield) devem ser incorporados ao banco de dados histórico pessoal do desenvolvedor ao final do ciclo, conforme o Post-mortem PSP3 (Doc 04, seção 5.8). Esses dados alimentam diretamente a precisão das estimativas e a eficácia das revisões no próximo projeto.
+> Pesquise: `"PSP post-mortem process improvement data"` ou `"PSP3 cyclic development feedback loop"`.

@@ -35,20 +35,40 @@ Duração Total do Projeto =
   + Reserva Gerencial        (riscos desconhecidos)
 ```
 
-### 2.2. Tabela de Estimativas por Fase
+As estimativas de duração por fase são derivadas do **tamanho estimado em LOC** (método PROBE — PSP1) dividido pela **taxa histórica de produtividade do desenvolvedor** (LOC/hora), conforme registrado no Log de Tempo (Doc 04, seção 5.1). Isso vincula cada marco do cronograma a dados mensuráveis, não a suposições.
 
-| Fase | Duração Estimada (dias úteis) | Reserva de Contingência | Duração com Reserva |
-| :--- | :--- | :--- | :--- |
-| F1 — Planejamento e Setup | [X] dias | [+Y dias / +Z%] | [Total] dias |
-| F2 — Design e Prototipação | [X] dias | [+Y dias / +Z%] | [Total] dias |
-| F3 — Desenvolvimento Módulo [A] | [X] dias | [+Y dias / +Z%] | [Total] dias |
-| F4 — Desenvolvimento Módulo [B] | [X] dias | [+Y dias / +Z%] | [Total] dias |
-| F5 — Testes e Correções | [X] dias | [+Y dias / +Z%] | [Total] dias |
-| F6 — Homologação (UAT) | [X] dias | [+Y dias / +Z%] | [Total] dias |
-| **Reserva Gerencial (nível projeto)** | — | **[X% do total]** | [Total] dias |
-| **PRAZO TOTAL DO PROJETO** | | | **[Total Final] dias úteis** |
+> **Referência PMBOK:** Project Management Institute. *A Guide to the Project Management Body of Knowledge (PMBOK Guide)*. PMI. Pesquise: `"PMBOK contingency reserve schedule"`.
+> **Referência PSP1:** HUMPHREY, Watts S. *A Discipline for Software Engineering*. Addison-Wesley, 1995, cap. 7–8. Pesquise: `"PSP1 task planning schedule Humphrey"`.
+
+### 2.2. Tabela de Produtividade Histórica (PSP)
+Antes de calcular as estimativas de cada fase, registre a taxa histórica de produtividade do desenvolvedor por tipo de atividade. Esta tabela é atualizada ao final de cada ciclo PSP3 (Post-mortem) e alimenta diretamente as estimativas PROBE dos próximos módulos.
+
+| Tipo de Atividade | LOC Realizados | Horas Líquidas | Produtividade (LOC/h) | Período de Referência |
+| :--- | :--- | :--- | :--- | :--- |
+| Back-end — Endpoint CRUD simples | [X LOC] | [Y h] | [Z LOC/h] | [Sprint / Data] |
+| Back-end — Autenticação / JWT | [X LOC] | [Y h] | [Z LOC/h] | [Sprint / Data] |
+| Front-end — Tela de listagem com filtros | [X LOC] | [Y h] | [Z LOC/h] | [Sprint / Data] |
+| Front-end — Dashboard com gráficos | [X LOC] | [Y h] | [Z LOC/h] | [Sprint / Data] |
+| Testes — Suíte unitária e integração | [X LOC] | [Y h] | [Z LOC/h] | [Sprint / Data] |
+
+> *Preencha a tabela ao final de cada ciclo de desenvolvimento. Valores iniciais podem ser estimados com base em projetos anteriores similares.*
+> **Referência PSP1:** Pesquise: `"PSP historical productivity LOC per hour PROBE"`.
+
+### 2.3. Tabela de Estimativas por Fase
+
+| Fase | LOC Estimado (PROBE) | Produtividade (LOC/h) | Esforço Estimado (h) | Duração Estimada (dias úteis) | Reserva de Contingência | Duração com Reserva |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| F1 — Planejamento e Setup | — | — | — | [X] dias | [+Y dias / +Z%] | [Total] dias |
+| F2 — Design e Prototipação | — | — | — | [X] dias | [+Y dias / +Z%] | [Total] dias |
+| F3 — Desenvolvimento Módulo [A] | [X LOC] | [Z LOC/h] | [X/Z h] | [X] dias | [+Y dias / +Z%] | [Total] dias |
+| F4 — Desenvolvimento Módulo [B] | [X LOC] | [Z LOC/h] | [X/Z h] | [X] dias | [+Y dias / +Z%] | [Total] dias |
+| F5 — Testes e Correções | — | — | — | [X] dias | [+Y dias / +Z%] | [Total] dias |
+| F6 — Homologação (UAT) | — | — | — | [X] dias | [+Y dias / +Z%] | [Total] dias |
+| **Reserva Gerencial (nível projeto)** | — | — | — | — | **[X% do total]** | [Total] dias |
+| **PRAZO TOTAL DO PROJETO** | | | | | | **[Total Final] dias úteis** |
 
 > **Referência PMBOK:** A Reserva de Contingência é aplicada fase a fase e gerenciada pelo desenvolvedor. A Reserva Gerencial é controlada em nível de projeto e acionada apenas para eventos imprevisíveis de alto impacto, mediante comunicação formal. Valores típicos: 10–20% por fase para contingência; 5–10% do total do projeto para reserva gerencial.
+> **Referência PSP1/PROBE:** As colunas LOC Estimado e Produtividade são derivadas do método PROBE e da tabela histórica (seção 2.2). Pesquise: `"PROBE estimating PSP1 LOC hours conversion"`.
 
 ---
 
