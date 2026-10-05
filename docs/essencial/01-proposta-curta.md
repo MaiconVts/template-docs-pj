@@ -26,10 +26,11 @@
 ## Condições
 
 - Inclui 2 rodadas de ajustes. Pedidos fora da lista acima são orçados à parte antes de serem feitos.
-- O cliente tem 5 dias úteis para aprovar a entrega. Sem retorno nesse prazo, a entrega é considerada aceita.
+- O cliente tem 5 dias úteis, contados do aviso de entrega por escrito, para aprovar. As partes combinam que, sem retorno nesse prazo, a entrega é considerada aceita.
 - Garantia de 30 dias para corrigir defeitos no que foi entregue.
-- O código e os arquivos são transferidos ao cliente após a quitação.
+- Os direitos sobre o código e os arquivos feitos para este projeto são cedidos ao cliente com a quitação integral. Componentes genéricos do prestador são licenciados ao cliente para uso livre no sistema.
+- Atraso de pagamento: multa de 2%, juros de 1% ao mês e correção pelo IPCA.
 
-**Aceite:** responder este e-mail com "De acordo com a proposta [Nome do Projeto]" ou assinar abaixo.
+**Aceite:** assinar eletronicamente (gov.br, Clicksign, ZapSign) ou responder este e-mail com "De acordo com a proposta [Nome do Projeto]".
 
 **Cliente:** ______________________________ Data: ___/___/_____

@@ -63,9 +63,9 @@
 
 **Valor total:** R$ [valor] · **Forma de pagamento:** [PIX / boleto], com nota fiscal, vencimento em [5] dias da emissão.
 
-- O trabalho começa após a compensação da entrada, que não é reembolsável.
-- Atraso de pagamento gera multa de 2% e juros de 1% ao mês. Após 10 dias de atraso, o trabalho é suspenso e os prazos se estendem pelo mesmo período.
-- Em caso de cancelamento, o cliente paga as etapas concluídas e o proporcional da etapa em andamento, e recebe tudo o que foi produzido até ali.
+- O trabalho começa após a compensação da entrada, que remunera o levantamento, o planejamento e a reserva de agenda.
+- Atraso de pagamento gera multa de 2%, juros de 1% ao mês e correção pelo IPCA. Após 10 dias de atraso, o trabalho é suspenso e os prazos se estendem pelo mesmo período.
+- Qualquer parte pode encerrar o projeto com aviso por escrito. Nesse caso, o cliente paga as etapas concluídas e o proporcional da etapa em andamento, e recebe tudo o que foi produzido até ali. Se o cliente desistir antes do início do trabalho, a entrada fica retida como sinal (arras penitenciais, art. 420 do Código Civil).
 
 *Os prazos já incluem margem para imprevistos normais. Prefira prazos em semanas a datas exatas quando o início depender do cliente. Valores padrão em `interno/padroes-comerciais.md`.*
 
@@ -88,15 +88,19 @@ Atrasos nesses itens adiam os prazos na mesma proporção, sem penalidade ao pre
 
 ## 8. Entrega, garantia e propriedade
 
-- **Homologação:** a cada entrega, o cliente tem [5] dias úteis para testar e apontar problemas. Sem retorno nesse prazo, a entrega é considerada aceita.
+- **Homologação:** cada entrega é comunicada por escrito (e-mail ou mensagem), e o cliente tem [5] dias úteis para testar e apontar problemas. As partes combinam que, sem retorno nesse prazo, a entrega é considerada aceita.
 - **Garantia:** [60] dias após o aceite final para corrigir, sem custo, defeitos em funcionalidades entregues. Não cobre mudanças, novos recursos nem problemas causados por alterações de terceiros ou de infraestrutura.
-- **Propriedade:** o código-fonte e os direitos de uso são transferidos ao cliente após a **quitação integral**. Bibliotecas de terceiros seguem suas próprias licenças. O prestador pode reutilizar componentes genéricos e citar o projeto em portfólio [remova se o cliente não autorizar].
-- **Dados pessoais (LGPD):** o cliente é o controlador dos dados tratados pelo sistema; o prestador atua como operador, acessa dados reais somente quando necessário e não os retém após a entrega.
-- **Confidencialidade:** informações do negócio do cliente não serão divulgadas.
+- **Propriedade intelectual:** os direitos patrimoniais sobre o código desenvolvido para este projeto são **cedidos ao cliente com a quitação integral**; até lá, permanecem com o prestador, e o cliente pode usar o que já foi entregue e pago. Ficam com o prestador as ferramentas, bibliotecas e componentes genéricos que ele já tinha ou que não são específicos do negócio do cliente; sobre eles, o cliente recebe uma licença de uso gratuita, perpétua e não exclusiva, para usar e alterar o sistema. Bibliotecas de terceiros seguem suas próprias licenças. O prestador pode citar o projeto em portfólio, sem expor dados nem informações confidenciais [remova se o cliente não autorizar].
+- **Responsabilidade:** o prestador responde pelos defeitos do que entregou, nos termos da garantia. A responsabilidade total do prestador fica limitada ao valor recebido neste projeto e não inclui lucros cessantes nem danos indiretos, exceto em caso de dolo ou culpa grave.
+- **Dados pessoais (LGPD):** o cliente é o controlador dos dados tratados pelo sistema; o prestador atua como operador, segue as instruções do cliente, acessa dados reais somente quando necessário, adota medidas de segurança razoáveis, avisa o cliente sobre qualquer incidente de segurança assim que tomar conhecimento e não retém dados após a entrega.
+- **Confidencialidade:** informações do negócio do cliente não serão divulgadas, inclusive após o fim do projeto.
+- **Autonomia:** o serviço é prestado por empresa independente, sem exclusividade, subordinação ou controle de horário. O prestador organiza o próprio trabalho para cumprir as entregas combinadas.
 
 ## 9. Aceite
 
-> Esta proposta pode ser aceita por assinatura eletrônica (gov.br, DocuSign, Clicksign etc.) ou por resposta de e-mail com o texto "De acordo com a proposta [Nome do Projeto] v1". Guarde a evidência em `evidencias/`.
+> **Prefira assinatura eletrônica** (gov.br, Clicksign, ZapSign, DocuSign). Assinada assim, a proposta vale como título executivo, sem precisar de testemunhas (art. 784, III e §4º, do CPC): se o cliente não pagar, a cobrança judicial vai direto para a execução.
+> Aceite por e-mail ("De acordo com a proposta [Nome do Projeto] v1") também forma o contrato, mas a cobrança exige uma ação monitória, que é mais lenta. Use só em trabalhos pequenos.
+> Guarde a evidência em `evidencias/`.
 > Para projetos acima de [R$ 15.000] ou com cliente corporativo, use também um contrato revisado por advogado; esta proposta passa a ser o anexo de escopo.
 
 **Cliente:** ______________________________ Data: ___/___/_____

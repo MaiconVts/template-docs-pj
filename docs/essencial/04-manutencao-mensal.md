@@ -44,7 +44,7 @@ Atendimento de segunda a sexta, das [9h às 18h], por [canal]. Fora desse horár
 - Vigência mínima de [3] meses; depois disso, cancelamento por qualquer parte com 30 dias de aviso.
 - Reajuste anual pelo [IPCA].
 - Atraso de pagamento acima de 10 dias suspende o atendimento até a regularização.
-- Acessos ao sistema e aos dados seguem a LGPD: o cliente é o controlador e o prestador atua como operador.
+- Acessos ao sistema e aos dados seguem a LGPD: o cliente é o controlador e o prestador atua como operador, segue as instruções do cliente e avisa sobre qualquer incidente de segurança assim que tomar conhecimento.
 
 ## 5. Aceite
 
