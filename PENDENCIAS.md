@@ -1,12 +1,18 @@
 # Pendências
 
-Reestruturação de 2026-10-05: de 13 documentos (com PSP, PMBOK e ISO 25010) para um kit enxuto, organizado por risco. Detalhes no README.
+Histórico:
+- **2026-10-05:** reestruturação de 13 documentos (PSP, PMBOK, ISO 25010) para um kit enxuto, organizado por risco. Versão antiga na tag `v1-completo`.
+- **2026-10-05:** adicionados proposta curta, manutenção mensal, padrões comerciais e geração de PDF.
 
-## Em aberto
+## Em aberto (dependem de você)
 
-- [ ] **Revisão jurídica** das cláusulas da proposta (seção 8: aceite tácito, propriedade após quitação, LGPD, garantia) e decisão sobre o valor a partir do qual exigir contrato formal (`[R$ X]` na seção 9).
-- [ ] **Definir os padrões comerciais:** percentuais de pagamento por etapa, dias de garantia, prazo de resposta do cliente, número de rodadas de revisão e validade da proposta. Hoje estão como sugestão entre colchetes.
-- [ ] **Modelo de manutenção mensal** (pós-garantia): ainda não existe. É a próxima peça de maior retorno financeiro.
-- [ ] **Formato de envio ao cliente:** Markdown cru não é ideal para cliente leigo. Avaliar exportar para PDF com identidade visual própria (Pandoc, Typst ou Google Docs).
-- [ ] **Usar em 1 ou 2 projetos reais** e ajustar o que faltar ou sobrar, com a retrospectiva como fonte.
-- [ ] Decidir se a versão anterior merece uma tag de git (`v1-completo`) para consulta fácil.
+- [ ] **Revisão jurídica**, uma vez, de: aceite tácito, propriedade após quitação, multa e suspensão por atraso, cancelamento, LGPD (proposta, seções 5 e 8, e manutenção, seção 4). Um advogado revisa isso em uma consulta, e a revisão vale para todos os projetos.
+- [ ] **Confirmar os valores** em `docs/interno/padroes-comerciais.md`, principalmente a **hora de referência** (está em branco) e os valores dos planos de manutenção.
+- [ ] **Identidade visual dos PDFs:** trocar `--marca` em `ferramentas/estilo.css` e, se quiser, incluir um logo.
+- [ ] **Usar em 1 ou 2 projetos reais** e ajustar com base na retrospectiva do que faltou ou sobrou.
+
+## Ideias para depois (só se a prática pedir)
+
+- Modelo de proposta para **banco de horas** (escopo aberto, cobrança por hora consumida).
+- Checklist de **onboarding de cliente** (acessos, contas no nome do cliente, canal de comunicação).
+- Remover automaticamente as instruções (`>` e itálico) na geração do PDF. Hoje é preciso apagar à mão, e o script só avisa os placeholders.

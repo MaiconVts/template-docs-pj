@@ -61,9 +61,13 @@
 | 2. [Ex.: Módulo de cadastro] | Funcionando em ambiente de testes | DD/MM | [Ex.: 30%] |
 | 3. Entrega final | Sistema em produção + aceite (doc 03) | DD/MM | [Ex.: 40%] |
 
-**Valor total:** R$ [valor] · **Forma de pagamento:** [PIX / boleto], com nota fiscal, vencimento em [X] dias da emissão.
+**Valor total:** R$ [valor] · **Forma de pagamento:** [PIX / boleto], com nota fiscal, vencimento em [5] dias da emissão.
 
-*Os prazos já incluem margem para imprevistos normais. Prefira prazos em semanas a datas exatas quando o início depender do cliente.*
+- O trabalho começa após a compensação da entrada, que não é reembolsável.
+- Atraso de pagamento gera multa de 2% e juros de 1% ao mês. Após 10 dias de atraso, o trabalho é suspenso e os prazos se estendem pelo mesmo período.
+- Em caso de cancelamento, o cliente paga as etapas concluídas e o proporcional da etapa em andamento, e recebe tudo o que foi produzido até ali.
+
+*Os prazos já incluem margem para imprevistos normais. Prefira prazos em semanas a datas exatas quando o início depender do cliente. Valores padrão em `interno/padroes-comerciais.md`.*
 
 ## 6. Responsabilidades do cliente
 
@@ -93,7 +97,7 @@ Atrasos nesses itens adiam os prazos na mesma proporção, sem penalidade ao pre
 ## 9. Aceite
 
 > Esta proposta pode ser aceita por assinatura eletrônica (gov.br, DocuSign, Clicksign etc.) ou por resposta de e-mail com o texto "De acordo com a proposta [Nome do Projeto] v1". Guarde a evidência em `evidencias/`.
-> Para projetos acima de [R$ X] ou com cliente corporativo, use também um contrato revisado por advogado; esta proposta passa a ser o anexo de escopo.
+> Para projetos acima de [R$ 15.000] ou com cliente corporativo, use também um contrato revisado por advogado; esta proposta passa a ser o anexo de escopo.
 
 **Cliente:** ______________________________ Data: ___/___/_____
 

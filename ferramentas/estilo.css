@@ -1,0 +1,50 @@
+/* Aparência dos PDFs. Troque --marca pela cor da sua identidade visual. */
+:root {
+  --marca: #1f4e79;
+  --texto: #1d1d1f;
+  --suave: #6b6b70;
+  --borda: #d9d9de;
+  --fundo-suave: #f5f6f8;
+}
+
+@page { size: A4; margin: 18mm 16mm; }
+
+body {
+  font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  font-size: 10.5pt;
+  line-height: 1.5;
+  color: var(--texto);
+  background: #fff;
+}
+
+h1 {
+  font-size: 19pt;
+  color: var(--marca);
+  border-bottom: 3px solid var(--marca);
+  padding-bottom: 6px;
+  margin: 0 0 12px;
+}
+h2 { font-size: 13pt; color: var(--marca); margin: 22px 0 8px; break-after: avoid; }
+h3 { font-size: 11pt; margin: 16px 0 6px; break-after: avoid; }
+
+p, li { orphans: 3; widows: 3; }
+a { color: var(--marca); }
+hr { border: none; border-top: 1px solid var(--borda); margin: 18px 0; }
+
+table { width: 100%; border-collapse: collapse; margin: 8px 0 14px; font-size: 9.5pt; break-inside: auto; }
+tr { break-inside: avoid; }
+th { background: var(--marca); color: #fff; text-align: left; font-weight: 600; }
+th, td { padding: 5px 8px; border: 1px solid var(--borda); vertical-align: top; }
+tbody tr:nth-child(even) td { background: var(--fundo-suave); }
+
+blockquote {
+  margin: 10px 0;
+  padding: 8px 12px;
+  border-left: 3px solid var(--marca);
+  background: var(--fundo-suave);
+  color: var(--suave);
+}
+blockquote p { margin: 0; }
+
+code { font-family: Consolas, monospace; font-size: 9pt; background: var(--fundo-suave); padding: 1px 4px; border-radius: 3px; }
+pre { background: var(--fundo-suave); padding: 10px; border-radius: 4px; overflow: hidden; white-space: pre-wrap; }

@@ -32,7 +32,8 @@
 ## 3. Garantia e próximos passos
 
 A partir da data de aceite, começa a garantia de **[60] dias**, conforme a seção 8 da proposta: correção sem custo de defeitos nas funcionalidades acima.
-Melhorias, novas funcionalidades e manutenção contínua são orçadas à parte. *(Se for o caso: "Proposta de manutenção mensal enviada em DD/MM.")*
+Melhorias, novas funcionalidades e manutenção contínua são orçadas à parte.
+Proposta de manutenção mensal: [enviada em anexo / não se aplica].
 
 **Para reportar defeito na garantia:** [e-mail / canal], com o passo a passo e um print, se possível.
 

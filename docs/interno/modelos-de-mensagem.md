@@ -40,4 +40,4 @@
 
 > [Nome], o [Projeto] está entregue! Segue o termo de entrega com tudo o que foi transferido.
 > A garantia de [60] dias vai até DD/MM. Para reportar algo, é só me chamar em [canal].
-> Se fizer sentido, posso enviar uma proposta de manutenção mensal. E, se ficou satisfeito, uma recomendação no [LinkedIn / Google] ajuda muito.
+> Também envio em anexo a proposta de manutenção mensal, para manter o sistema atualizado e seguro depois da garantia. E, se ficou satisfeito, uma recomendação no [LinkedIn / Google] ajuda muito.

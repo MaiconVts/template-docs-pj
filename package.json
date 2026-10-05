@@ -1,0 +1,12 @@
+{
+  "name": "template-docs-pj",
+  "private": true,
+  "type": "module",
+  "description": "Kit enxuto de documentação para prestação de serviços de software como PJ",
+  "scripts": {
+    "pdf": "node ferramentas/gerar-pdf.mjs"
+  },
+  "dependencies": {
+    "marked": "^18.1.0"
+  }
+}
