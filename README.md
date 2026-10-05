@@ -37,6 +37,7 @@ docs/
 └── interno/                      só para você
     ├── padroes-comerciais.md     valores padrão (pagamento, prazos, garantia, multa) e como precificar
     ├── modelos-de-mensagem.md    proposta, status semanal, aprovação, fora do escopo, encerramento
+    ├── revisao-juridica.md       cláusulas, base legal e perguntas para o parecer do advogado
     └── retrospectiva.md          estimado vs. real, valor/hora real, ajustes no orçamento
 ferramentas/
     gerar-pdf.mjs + estilo.css    converte qualquer documento em PDF com a sua cor de marca
